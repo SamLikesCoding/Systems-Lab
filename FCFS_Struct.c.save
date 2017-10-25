@@ -1,0 +1,32 @@
+#include<stdio.h>
+
+struct process
+{
+	int pid,burst,wait,turn,avg_wait,avg_turn;
+};
+
+void FCFS_Calc(struct process *p,int total_proc)
+{
+ int i,j;
+
+ p[0]->wait
+
+ for(i=1;i<total_proc;i++)
+ {
+	p[i]->wait=0;
+	for(j=0;j<i;j++)
+	{
+		p[i]->wait+=p[j]->burst;
+	}
+
+	for(i=0;i<total_proc;i++)
+	{
+		
+	}
+ }
+}
+
+void main()
+{
+
+}

@@ -1,0 +1,27 @@
+log1:
+FCFS_Struct.c: In function ‘FCFS_Calc’:
+FCFS_Struct.c:30:9: error: expected ‘;’ before ‘:’ token
+FCFS_Struct.c:30:26: error: expected ‘;’ before ‘)’ token
+FCFS_Struct.c: In function ‘main’:
+FCFS_Struct.c:81:2: warning: passing argument 1 of ‘FCFS_Calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:10:6: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:82:2: warning: passing argument 1 of ‘avg_wait_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:39:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:83:2: warning: passing argument 1 of ‘avg_turn_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:52:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:91:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘struct process’ [-Wformat]
+log2:
+FCFS_Struct.c:81:2: warning: passing argument 1 of ‘FCFS_Calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:10:6: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:82:2: warning: passing argument 1 of ‘avg_wait_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:39:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:83:2: warning: passing argument 1 of ‘avg_turn_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:52:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:91:3: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘struct process’ [-Wformat]
+log3:
+FCFS_Struct.c:81:2: warning: passing argument 1 of ‘FCFS_Calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:10:6: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:82:2: warning: passing argument 1 of ‘avg_wait_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:39:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
+FCFS_Struct.c:83:2: warning: passing argument 1 of ‘avg_turn_calc’ from incompatible pointer type [enabled by default]
+FCFS_Struct.c:52:7: note: expected ‘struct process *’ but argument is of type ‘struct process (*)[30]’
