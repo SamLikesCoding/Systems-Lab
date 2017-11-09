@@ -22,7 +22,7 @@ for(i=0;i<n;i++)
  scanf("%s",fileName);
  p[i]=fopen(fileName,"w");
  strcpy(fn[i],fileName);
- printf("\nFile Name : %s\n",fn[i]);
+ printf("\nFile Name %d : %s\n\n",i,fn[i]);
 }
 n=0;
 rewind(fp1);
