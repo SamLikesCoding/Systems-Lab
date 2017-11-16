@@ -38,7 +38,7 @@ int main()
   for(i=0;i<50;i++)
   {
     fscanf(eye,"%d %s",intbuf,wbuf);
-    printf(" %s  %s\n",intbuf,wbuf);
+    printf(" %d  %s\n",intbuf,wbuf);
   }
 
   fclose(eye);

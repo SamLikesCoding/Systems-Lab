@@ -1,5 +1,0 @@
-10 LENGTH 
-12 ZERO 
-16 LOOP 
-17 S 
-22 S1 
